@@ -15,8 +15,8 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: train-schedule:22
-        image: docker.io/darkwunan/train-schedule:2212
+      - name: train-schedule-app
+        image: docker.io/darkwunan/train-schedule:12
         resources:
           requests:
             cpu: 100m
