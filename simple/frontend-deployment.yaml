@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: train
-        image: docker.io/darkwunan/train-schedule:81
+        image: docker.io/darkwunan/train-schedule:82
         resources:
           requests:
             cpu: 100m
